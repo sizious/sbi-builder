@@ -1,0 +1,206 @@
+[LANG]
+LangName=Français
+Author=[big_fury]SiZiOUS
+Version=3.2
+
+[BUTTONS]
+About=&A propos...
+Next=&Suivant>
+Previous=<&Précédent
+OK=&OK
+Cancel=&Annuler
+Finish=&Terminer
+Restart=<&Recommencer
+CreateSBI=&Créer SBI !
+Close=&Fermer
+
+[HINTS]
+StatusBarDoubleClickHereForDisplayingTheDebugLog=Double-cliquez ici pour afficher le journal
+MacDreamToolHint=Le commentaire du SBI va être copié dans le dossier Readme (dans le SBI). Son nom va être "<BINName_comment.txt".
+
+[EVENTS]
+Ready=Prêt
+Warning=Attention
+AbortOperation=Annuler l'opération en cours ?
+AreYouSure=Êtes vous sur(e) ?
+Question=Question
+PleaseSelectAItem=Veuillez sélectionner un élément!
+EmptyList=Liste vide!
+Error=Erreur
+MustSpecifyProgram=Entrez un programme!
+MustSpecifyPicture=Entrez une image!
+ProgramFileNotFound=Fichier programme non trouvé :
+PictureFileNotFound=Fichier image non trouvé :
+MustEnterProgramName=Vous devez entrer un nom de programme.
+MustEnterProgramType=Vous devez entrer un type de programme.
+ChooseDirectory=Choississez votre dossier
+CreationStarted=Création démarrée.
+CheckingInducerDir=Vérification dossier Inducer...
+SCRAMBLEToolExtract=Extraction de l'outil SCRAMBLE.EXE...
+CopyingBINProgram=Copie du programme BIN...
+DescramblingBIN=Descramblage du BIN.
+CopyingScreenShot=Copie de la capture d'écran...
+CheckingAnothersFiles=Vérification des autres fichiers...
+AddingFilesInCDRoot=Ajout des fichiers à la racine du CD...
+CheckingStructureFolder=Vérification de la structure des dossiers...
+CheckingFileCopy=Vérification de la copie de fichiers...
+AddingFiles=Ajout de fichiers...
+DXLStepCreation=Etape de création du DXL...
+ZIPToolExtract=Extraction de l'outil ZIP.EXE...
+ZippingFiles=Zippage des fichiers...
+SBICreationCompleted=Création du SBI terminée.
+SBICreationCompletedEnjoyIt=YESS... Création du fichier SBI terminée, éclatez vous :)
+OhYeah=Trop cool :D
+Options=Options:
+BINisUnscrambled=Le fichier BIN est unscrambled.
+BINisScrambled=Le fichier BIN est scrambled.
+ConfirmBINDetection=Êtes-vous d'accord avec le module de détection?
+Information=Information
+BinWillBeCopiedAsUnscrambled=Le fichier BIN va être copié en tant qu'unscrambled.
+BinWillBeCopiedAsScrambled=Le fichier BIN va être copié en tant que scrambled.
+CopyingBINasScrambled=Copie du fichier BIN en tant que scrambled...
+CopyingBINasUnscrambled=Copie du fichier BIN en tant que unscrambled...
+SBIRestarted=La création du fichier SBI a été relancée.
+IfYouGoBackSBIFileDeletedContinue=Si vous allez en arrière, le contenu du fichier SBI va être effacé. Continuer?
+ResizingPNG=Redimension du fichier PNG...
+CopyingReadMeFile=Copie du fichier LisezMoi...
+CopyingStampFile=Copie du fichier "tampon" SBI Builder (Merci!)
+InvalidImage=Image invalide.
+ReadMeFileNotFound=Fichier Lisez Moi introuvable !
+ErrorAllFieldsAreEmpty=Erreur, tous les champs sont vides.
+WarningFileIsSuperiorThan8192Bytes=ATTENTION : Le fichier est > à 8192 octets.
+TheFileWillBeTruncatedContinue=Le fichier va être tronqué. Continuer ?
+FileSuccessfullyCreated=Fichier créé avec succès.
+DeleteAllFields=Effacer tous les champs ?
+YouHaveNotCreatedASbiComment=Vous n'avez pas créé de commentaire pour le SBI.
+PleaseCreateItOrSelectDontAddThisComment=Créez-le ou alors sélectionnez "Ne pas ajouter ce commentaire".
+AddingSbiComment=Ajout du commentaire au SBI...
+SbiCommentSuccessfullyAdded=Commentaire ajouté avec succès au SBI.
+ErrorWhenAddingSbiCommentContinue=ERREUR lors de l'ajout du commentaire au SBI...! Continue...
+WarningSbiCommentTextFileIsTooBigTruncateTheFileAt8KB=ATTENTION : Le commentaire du fichier SBI est trop long. Tronquage à 8KB...
+TruncateOfTheTextFileSuccessfullyCompleted=Tronquage du fichier texte réalisé avec succès.
+ErrorCommentAlreadyExistsOnTheFile=ERREUR : Un commentaire existe déjà dans ce fichier.
+CheckingTextFileSize=Vérification du fichier texte...
+MacDreamToolSupportEnabled=Support pour MacDreamTool activé.
+SuccessfullyAddedMacDreamToolSupport=Support pour MacDreamTool ajouté avec succès.
+ErrorWhenAddingMacDreamToolSupport=ERREUR : Erreur lors de l'ajout du support pour MacDreamTool !
+ELFFileDetectedConvertingItToUnscrambledBIN=Fichier ELF détecté, conversion vers un BIN unscrambled.
+ErrorWhenConvertingTheELFToTheBIN=ERREUR : Erreur lors de la conversion ELF vers BIN !
+FolderCreationOK=Création du dossier OK.
+FailedWhenCreatingTheDirectory=Erreur lors de la création du dossier !
+FolderAlreadyExists=Le dossier existe déjà.
+NewFolder=Nouveau dossier...
+EnterFolderName=Entrez le nom du dossier :
+
+[DESCRIPTION]
+MainDescription=Créez un fichier SBI à partir d'un programme Dreamcast pour l'utiliser avec Dream Inducer !
+WelcomeToSbiBuilder=Bienvenue dans SBI Builder pour votre SEGA Dreamcast!
+ThisProgramWillCreate=Ce programme va créer un SBI pour utiliser avec Dream Inducer créé par BurnerO.
+ClickNextToContinue=Ceci va créer un SBI automatiquement. Pour continuer, cliquez sur Suivant.
+Status=Statut
+IfYouWantToConfigureTheApplicationClickThisButton=Si vous voulez configurer l'application, cliquez sur le bouton.
+ConfigureButton=&Configurer...
+
+[STEP1]
+STEP1=Etape 1 : Veuillez sélectionner votre fichier programme pour Dreamcast.
+Step1Description=Sélectionnez ici le programme principal. Vous pouvez ajouter n'importe quel type de fichier, comme un fichier ELF ou un fichier BIN scrambled/unscrambled.
+ProgramFileGroupBox=Fichier programme :
+BINWarning=Si vous choississez un fichier BIN, veuillez cliquer sur la case à cocher pour scanner le binaire.
+ProgramFile=Programme : 
+UnscrambleCheckBox=&Détecter si le BIN est scrambled ou unscrambled
+BINFilter=Tous les programmes (*.elf;*.bin)|*.elf;*.bin|Programmes BIN (*.bin)|*.bin|Programmes ELF (*.elf)|*.elf|Tous les fichiers (*.*)|*.*
+BINOpenDialogTitle=Veuillez choisir un programme...
+ConfirmBINDetection=Confirmer le résultat lors de la détection du BIN
+TheCopyAndTheCheckOfTheFileWillBeMadeAtStep4=La copie et la vérification du fichier sera faite à l'étape 4.
+
+[STEP2]
+STEP2=Etape 2 : Veuillez sélectionner votre capture d'écran.
+STEP2Description=Veuillez sélectionner la capture d'écran qui va être affichée dans Dream Inducer. Si vous n'en avez pas, cliquez juste sur la case à cocher "Pas de capture d'écran".
+STEP2GroupBox= Capture d'écran
+NoScreenshot=&Pas de capture d'écran
+MustBeAPicture=La capture d'écran doit être un fichier image valide.
+ScreenShotFilter=Tous types (*.png;*.jpg;*.gif;*.bmp)|*.png;*.jpg;*.gif;*.bmp;*.jpe;*.jpeg|Image GIF (*.gif)|*.gif|Portable Network Graphics (*.png)|*.png|Image JPEG (*.jpg)|*.jpg;*.jpe;*.jpeg|Bitmaps (*.bmp)|*.bmp
+ScreenShotOpenDialogTitle=Veuillez choisir une image...
+ResizePNGIfNeeded=Redimentionner l'image si nécessaire
+WillBeTheNewSizeAfterResize=sera la taille après la redimension
+
+[STEP3]
+STEP3=Etape 3 : Veuillez choisir votre fichier Lisez-Moi.
+STEP3Description=Veuillez choisir votre fichier "lisezmoi.txt". Il va être ajouté dans le fichier SBI. Si vous le voulez, vous pouvez ajouter un fichier "buildsbi.txt" dans votre fichier SBI pour indiquer qu'il a été fait avec SBI Builder.
+STEP3GroupBox=Lisez-Moi:
+PleaseChooseReadMeFile=Veuillez choisir votre fichier Lisez-Moi:
+IncludeTheSBIBuilderStampInTheSBIFile=&Inclure le fichier tampon SBI Builder dans votre fichier SBI
+DontRenameTheReadmeFileAsTheBIN=&Ne pas renommer le fichier Lisez-Moi comme le BIN
+ReadMeOpenDialogFilter=Fichiers texte (*.txt)|*.txt|Tous les fichiers (*.*)|*.*
+
+[STEP4]
+STEP4=Etape 4 : Entrez le nom du programme et sa description.
+STEP4Description=Veuillez entrer le nom du programme. Vous devez le faire. La description est optionnelle. Vous devez aussi choisir le type de programme.
+ProgramTitle=Titre du programme : 
+DescriptionTitle=Description du programme :
+ProgramTypeTitle=Type du programme : 
+TypeDescription=Veuillez sélectionner le type de programme que vous voulez ajouter.
+There4TypesAvailable=Il y'a 4 types disponible.
+
+[STEP5]
+STEP5=Etape 5 : Ajouter un commentaire au fichier SBI
+Step5Info=La fonction Lisez moi sur le GUI est disponible seulement à partir de Selfboot Inducer v4.0. C'est un commentaire dans le zip et de taille à peu pres de 8Kb.
+MakeYourChoice=Faites votre choix :
+DontAddThisComment=&Ne pas ajouter ce commentaire
+CreateNewCommentReadMeFile=Créer un n&ouveau commentaire
+UseExternalTextFile=&Utiliser fichier externe
+InternalZipCommentCreator=Créateur interne :
+EasyToUse=Facile à utiliser !
+OpenCommentFileEditor=&Ouvrir le créateur...
+WhatFilesDoINeedToAdd=Quels fichiers je doit ajouter ? :
+Whats=Qu'est-ce que
+WhoMade=Qui a fait
+HowDoIPlay=Comment je dois jouer à
+Controls=Contrôles :
+CancelThisOperation=&Annuler l'opération
+ClearAllFields=&Effacer tous les champs...
+CreateTheFile=&Créer le fichier...
+CreateAZipCommentTextFile=Créer un commentaire texte pour le fichier SBI
+MacDreamToolSupport=&Support de MacDreamTool
+
+[STEP6]
+STEP6=Etape 6 : Fichier additionnels pour le programme.
+AddProFilesInfos=Info : Ces fichiers vont être ajouté à la racine du CD. Click droit pour sélectionner les fichiers. Multi sélection autorisée.
+AdditionnalProgramsFiles=Fichiers additionnels ? : 
+FolderStructure=Structure des dossiers :
+FileStructure=Structure des fichiers :
+AddFolder=&Ajouter un dossier...
+AddFile=A&jouter des fichiers...
+ShowExplorer=A&fficher l'explorateur Windows...
+Refresh=&Rafraîchir
+PleaseChooseTheDirectory=Veuillez sélectionner le dossier:
+AddFilter=Tous les fichiers (*.*)|*.*
+AddOpenDialogTitle=Sélectionnez les fichiers additionnels...
+ViewFolder=Voir dossier...
+
+[STEP7]
+STEP7=Etape 7 : Création du fichier SBI.
+STEP7Description=Maintenant vous pouvez créer votre fichier SBI. Cliquez sur Créer SBI pour spécifier le nom du SBI et sa location.
+SaveDialogTitle=Entrez un nom pour le SBI...
+SaveDialogFilter=Self Boot Inducer (*.sbi)|*.sbi|Tous les fichiers (*.*)|*.*
+ProgressBar=Progression:
+
+[FINAL STEP]
+STEP8=Terminé !!!
+STEP8Description=Vous avez réussi avec succès la construction de votre SBI. Amusez vous bien !
+ViewLogFile=&Voir le journal...
+
+[DebugLog]
+RightClickForOptions=SBI Builder - Debug Log - Cliquez droit pour avoir les options
+SaveLog=Sauvegarder journal...
+DebugLogTitle=Sauvegarder le debug log sous...
+DebugLogFilter=Fichiers Debug log (*.log)|*.log|Fichiers texte (*.txt)|*.txt|Tous les fichiers (*.*)|*.*
+
+[CONFIG]
+ConfigurationTitle=Configuration
+Options=Options
+ShowSplashScreenAtStartup=&Afficher l'écran de démarrage lors du lancement
+LanguageSelection=Choix de la langue
+IfYouWantToChangeTheLanguagePleaseClickOnThisButton=Pour changer la langue, cliquez sur le bouton.
+ChangeButton=&Changer...
+RestartAppToChangeLanguage=L'application doit être relancée. Tous les changements seront perdus. Continuer ?

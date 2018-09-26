@@ -1,0 +1,64 @@
+  [big_fury]
+  888888888    8888  888888888888  8888     888888888     8888      8888   888888888
+8888888888888  8888  888888888888  8888   8888888888888   8888      8888 8888888888888
+8888     8888              88888         8888       8888  8888      8888 8888     8888
+888888888      8888      888888    8888 8888         8888 8888      8888 888888888
+  8888888888   8888     88888      8888 8888         8888 8888      8888   88888888888
+       888888  8888   88888        8888 8888         8888 8888      8888         888888
+8888      8888 8888  88888         8888  8888       8888  8888      8888 8888      8888
+8888888888888  8888 88888888888888 8888   8888888888888    888888888888  8888888888888
+  8888888888   8888 88888888888888 8888     888888888       8888888888     8888888888
+
+SBI Builder Wizard
+==================
+
+Version  : v3.2
+Auteur   : [big_fury]SiZiOUS a.k.a SiZ!
+Released : 30/11/06 à 17:19
+
+I) Présentation : 
+-----------------
+
+Salut à tous!
+
+Ce programme crée un package SBI, à partir d'une application Dreamcast valide,
+comme un ELF ou un fichier BIN unscrambled/scrabled.
+
+Les fichiers SBI sont des extension pour Selfboot Inducer. Vous pouvez utiliser
+la dernière version à ce jour, "Selfboot Inducer v4 Stage III : Ultimate Power" dispo
+sur mon site : http://sbibuilder.shorturl.com/.
+
+Vous pouvez ajouter un screenshot, un commentaire au SBI, ajouter des fichiers
+supplémentaires, etc.
+Pour les utilisateurs MAC, cochez la case "MacDreamTool support" s'il vous plait,
+il ajoute le commentaire du SBI dans un fichier, appellé "<BINNAME>_comment.txt".
+
+II) Utilisation : 
+-----------------
+
+Je ne pense pas que vous ayez besoin d'une explication ou d'un tutorial. Si malgré tout
+vous voulez en lire un, visitez le tutorial de Fackue ici (anglais) :
+
+"http://www.consolevision.com/members/fackue/tut_sbi.shtml".
+
+III) Crédits : 
+--------------
+
+Cette app a été écrite par by [big_fury]SiZiOUS (SiZ!). 
+C'est un freeware et peut-être distribuée, si vous gardez le package original.
+
+Merci à vous et à burnerO pour son Selfboot inducer ;)
+Et : patbier, oggy, Cédric, erwan, JMD, Diwee, pingouindream, L@ Cible, Eldrad Uhltran,
+dcprogfr, goldzinger et tous les membres du forum DCReload (http://www.dcreload.fr.st/).
+
+Un merci spécial à Fackue, auteur de 1st_read.bin checker pour sa source!
+Turrican2K (joyeux anniversaire ?) pour son package ELF2BIN.
+Et, curt_grymala pour les informations sur les SBI v4.0.
+
+Enjoy it !!!
+
+[big_fury]SiZiOUS
+http://sbibuilder.shorturl.com/
+2002-2006 DC-Scene
+
+<EOF>

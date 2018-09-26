@@ -1,0 +1,134 @@
+CHANGEMENTS
+===========
+
+3.2
+
+Ajouté : 
+* Le nom de l'application est déduit du nom du fichier binaire
+
+Corrigé : 
+* Application LARGEMENT plus rapide
+* Scramble est invisible lorsqu'il est executé (sert à rien mais bon...)
+* Les champs du créateur de commentaires interne sont nettoyés à chaque création d'un SBI
+* No screen coché par défaut
+* Nouvelle bonus About Box...
+* Splash screen désactivable
+* Nouveaux graphiques + icônes ...
+* Quelques autres modifs mineures ...
+
+---
+
+3.1
+
+Ajouté :
+* Ajout du support pour les fichiers ELF. Tous les binaires Dreamcast sont acceptés maintenant.
+* Ajouté un nouveau menu à l'étape 6 :
+  - Vous pouvez créer un nouveau dossier ici.
+  - Voir le dossier courant dans l'explorateur Windows.
+  - Corrections : Voir ci-dessous
+* Support pour MacDreamTool ajouté. (Copie le commentaire de SBI dans le fichier SBI, dans 
+  le dossier ReadMe, avec le nom "<BIN_NAME>_comment.txt").
+
+Corrigé : 
+* Si vous allez en arrière, à l'étape du screenshot, l'image précédente n'était pas effacée.
+* A l'étape 6 :
+  - Bug de rafraichissement, maintenant les fichiers/dossiers sont affichés immédiatement.
+  - Quand vous ajoutez un nouveau fichier/dossier, la position courante dans la fenêtre 
+    était perdue (et le dossier était fermé).
+---
+
+3.0
+
+* Supporte les fichiers SBI v4.0, avec un commentaire dans le ZIP.
+* Quelques bugs corrigés :
+  - Si à l'étape 6 vous revenez en arrière et que vous changez le type d'appli, l'EXE était recopié deux fois.
+  - Lors du click sur Terminer, les applis temporaires n'était pas bien nettoyées.
+  - ...
+
+---
+
+2.51
+
+Merci à hrb2k3 pour avoir trouvé le bug !
+* Correction lors du click sur le bouton recommencer : le dossier Inducer est réinitialisé avant de recommencer un fichier SBI.
+
+---
+
+2.5
+
+Quelques bugs corrigés.
+* Bug de BINCHECK.DLL corrigé : Les fichiers en lecture seule sont valides maintenant, et la vérification des BIN marche sur eux.
+* Quelques bugs des contrôles : La case à cocher 'Pas de screenshot' a été corrigé quand 'Redimentionner PNG' est activée.
+* 4 types d'images sont acceptés (plus que les PNG) : GIF, JPG, BMP et PNG.
+* On peut voir l'image utilisée pour le screenshot.
+* Bug du bouton 'Recommencer' corrigé.
+* Bug de la progress bar (quand on recommence à faire un SBI).
+* Le fichier buildsbi.exe est plus petit (875kb -> 820Kb).
+* Tous les noms de fichiers sont en minuscules.
+* Splash Screen refait...
+
+---
+
+
+2.4
+
+Beaucoup de changements, presque 1 an après la sortie de la v2.3.
+* SBI Builder peut changer la taille des PNG.
+* Il peut verifier si le BIN est scrambled.
+* Ajout d'un Debug Log.
+* Ajout d'une étape Lisez-Moi.
+* Changements dans les types.
+* Le programme est plus rapide.
+* L'etape 5 a été revue et corrigée.
+* Lors de la création du SBI une progressbar indique la progression.
+* Etc...
+
+---
+
+2.3
+
+Corrections, encore des corrections...
+SBI Builder verifie maintenant la taille des PNG (mais ne les modifie pas)
+
+---
+
+2.2
+
+Corrections des bugs trouvés
+Ajout d'un systeme de changement de langue !
+Ajout d'une case à cocher pour descrambler
+
+---
+
+2.1
+
+Trop de bugs :)
+Rien de spécial a part correction des bugs trouvé, cependant cette version n'a pas été
+distribuée car trop peu de changements comparés à la 2.0.
+
+---
+
+2.0
+
+Correction de suppression des fichiers en lecture seule
+
+---
+
+2.0b
+
+Transformation en wizard
+La c cool ;)
+
+---
+
+1.0
+
+Ajout d'une status bar qui permet de savoir si le prog a fini de faire le SBI.
+Ne cache plus l'application ZIP.EXE, cela permet de deceller les problemes.
+(Toujours toute pourite)
+
+---
+
+1.0b 
+
+Premiere version (toute pourrite)

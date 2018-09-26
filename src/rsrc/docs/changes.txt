@@ -1,0 +1,131 @@
+CHANGES
+=======
+
+3.2
+
+Added : 
+* The name of the SBI pack is deduced from the name of the binary
+
+Fixed : 
+
+* Great application SPEED UP !
+* Scramble is invisible when it's used (useless but...) 
+* Fields of the internal comments editor are cleaned when restarting to build a new SBI pack
+* "No screen" option in STEP 2 (add a screenshot)'s checked by default
+* New bonus About Box ...
+* Splash screen can be disabled
+* New GFX and icons... 
+* Some others minor fixes...
+
+---
+
+3.1
+
+Added :
+* ELF support. You can add any kind of Dreamcast binary now.
+* Added a new menu in step 6 :
+  - You can create a new folder here.
+  - View the current folder in the Windows explorer.
+  - Bug fix : see below
+* MacDreamTool support added. (Copy the SBI comment inside the SBI file, in the ReadMe dir, 
+  with the "<BIN_NAME>_comment.txt" filename).
+
+Fixed : 
+* If you go back, on the screenshot step, the previous picture wasn't cleaned.
+* In step 6 :
+  - Refresh bug fix, now the files/folders are shown immediatly.
+  - When you add a new file/folder, the current position in the view was lost (and the folder was closed).
+
+---
+
+3.0
+
+* Support v4.0 SBI Files, with ZIP Comment.
+* Some bug fixes :
+  - When you go back at step 6, if you change the application type, the BIN has been copied 2 times.
+  - When you click on the Finish button, temporarys applications wasn't been cleaned.
+  - ...
+
+---
+
+2.51
+
+Thanks to hrb2k3 for the bug report !
+* Bug fix when you restart to build another SBI after the first SBI (when you run the app).
+  The Inducer SBI is cleaned before making another SBI.
+
+---
+
+2.5
+
+Some bugs fixed.
+* BINCHECK.DLL bug fixed : Read-Only BIN files are valids files now, and the BIN check works on them.
+* Some control bug fix : 'No screenshot' control bug fixed when the 'Resize PNG' check box is checked.
+* 4 picture types allowed for screenshots (not only PNG now) : GIF, JPG, BMP and PNG.
+* Screenshot preview (when you browse a screenshot on your hd).
+* 'Restart' button bug fix.
+* ProgressBar bug fix (when restarted).
+* buildsbi.exe file is smaller (875kb -> 820Kb).
+* All files are in lower case.
+* Splash Screen re-make...
+
+---
+
+2.4
+
+Many changes, almost 1 year after the release of the v2.3. 
+* SBI Builder can change the size of the png. 
+* It can check if the BIN is scrambled. 
+* Added a Debug Log. 
+* Added a Read me step.
+* Changes in the types. 
+* The program is faster. 
+* Step 5 was re-examined and corrected. 
+* A progressbar indicates the progression when the creation of the SBI. 
+* Etc...
+
+---
+
+2.3
+
+Bugs fix, still of the bugs fix... SBI Builder checks the size of the png now 
+(but does not modify them)
+
+---
+
+2.2
+
+Fix found bugs 
+Adding system language change !  
+Adding a check box for unscramble
+
+---
+
+2.1
+Too many bugs :)  Nothing special. bugs correction, however this version wasn't 
+distributed bus not enough changes compared with the 2.0.
+
+---
+
+2.0
+
+Correction when a file is read only
+
+---
+
+2.0b
+
+Transformation in wizard
+
+---
+
+1.0
+
+Added a status bar
+Do not hide any more the ZIP.EXE application now you can see problems
+
+---
+
+1.0b 
+
+First release
